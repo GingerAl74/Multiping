@@ -1,4 +1,4 @@
-﻿$List_File = "C:\Scripts\multiping\inping.txt"
+$List_File = "C:\Scripts\multiping\inping.txt"
 $OUT = "C:\Scripts\multiping\outping.txt"
 $count = 0
 $length = Get-Content $List_File -Force | Measure-Object -Line -IgnoreWhiteSpace | Format-Table Lines -HideTableHeaders | Out-String
